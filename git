@@ -1,0 +1,17 @@
+[33mcommit 8c8b1921c5a5dc964292c2353228328658947be7[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mfeature/criar-api[m[33m)[m
+Author: Gabriel Silvestre <gabrielsilvestrecoelho2@gmail.com>
+Date:   Tue Sep 22 18:58:03 2026 -0300
+
+    feat: cria entidade ProjetoArquitetonico
+
+[33mcommit c72551ad15e076e1154e3d38722d5742a5518460[m[33m ([m[1;31morigin/feature/criar-api[m[33m)[m
+Author: Gabriel Silvestre <gabrielsilvestrecoelho2@gmail.com>
+Date:   Tue Sep 22 10:39:47 2026 -0300
+
+    chore: estrutura inicial do projeto e configuracao do application.yaml
+
+[33mcommit 8e5a9930977aa82dfd78717aeb7afdd4ee8d21c2[m[33m ([m[1;31morigin/main[m[33m, [m[1;32mmain[m[33m)[m
+Author: Gabriel Silvestre <gabrielsilvestrecoelho2@gmail.com>
+Date:   Tue Sep 22 10:08:52 2026 -0300
+
+    chore: commit inicial com estrutura base e README
