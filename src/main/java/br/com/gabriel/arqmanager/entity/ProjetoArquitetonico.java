@@ -1,6 +1,7 @@
 package br.com.gabriel.arqmanager.entity;
 
 import br.com.gabriel.arqmanager.enums.FaseProjeto;
+import com.fasterxml.jackson.annotation.JsonFormat;
 import jakarta.persistence.*;
 import lombok.Data;
 
@@ -26,9 +27,11 @@ public class ProjetoArquitetonico {
     @Column(name = "fase_projeto", nullable = false)
     private FaseProjeto faseProjeto;
 
+    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "data_inicio", nullable = false)
     private LocalDate dataDeInicio;
 
+    @JsonFormat(pattern = "dd/MM/yyyy")
     @Column(name = "data_final", nullable = false)
     private LocalDate dataFinal;
 }
